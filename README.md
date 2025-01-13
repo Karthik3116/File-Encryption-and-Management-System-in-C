@@ -80,3 +80,21 @@ Compile the C Files:
 
 bash
 gcc main.c display_content.c  move_file.c rename_file.c create_directory.c  delete_file.c org_by_type.c org_by_date.c .\org_by_size.c encrypt_file.c decrypt_file.c  -o run;.\run.exe
+
+
+
+
+
+
+
+## Contact
+
+- **LinkedIn:** [kethavath kartheek]([https://www.linkedin.com/in/your-profile](https://www.linkedin.com/in/kethavathkartheek/))
+- **Leetcode:** [professor3116]([https://leetcode.com/u/professor3116/])
+
+Made with ❤️⚡ by Hansal Shah [19BCP043] && Jainil Patel [19BCP056]
+
+
+
+
+
