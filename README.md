@@ -86,11 +86,10 @@ gcc main.c display_content.c  move_file.c rename_file.c create_directory.c  dele
 
 
 
-
 ## Contact
 
-- **LinkedIn:** [kethavath kartheek]([https://www.linkedin.com/in/your-profile](https://www.linkedin.com/in/kethavathkartheek/))
-- **Leetcode:** [professor3116]([https://leetcode.com/u/professor3116/])
+- **LinkedIn:** [kethavath kartheek](https://www.linkedin.com/in/kethavathkartheek/)
+- **Leetcode:** [professor3116](https://leetcode.com/u/professor3116/)
 
 
 
