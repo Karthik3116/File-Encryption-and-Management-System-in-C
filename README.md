@@ -46,7 +46,7 @@ The **File Encryption & Management System** allows users to manage files through
 
 ## Screenshots
 
-![File Encryption](https://example.com/encryption_screenshot.png)  
+![File Encryption](https://i.ibb.co/mqqn1X6/Screenshot-2025-01-14-022843.png)  
 *Screenshot of file encryption functionality.*
 
 ---
