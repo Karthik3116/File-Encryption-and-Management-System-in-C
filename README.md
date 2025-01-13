@@ -80,10 +80,7 @@ gcc main.c display_content.c move_file.c rename_file.c create_directory.c delete
 ./run
 
 ````
-Contact
-- **LinkedIn:** [kethavath kartheek]([https://www.linkedin.com/in/your-profile](https://www.linkedin.com/in/kethavathkartheek/))
-- **Leetcode:** [professor3116]([https://leetcode.com/u/professor3116/])
+## Contact
 
-
-
-
+- **LinkedIn:** [kethavath kartheek](https://www.linkedin.com/in/kethavathkartheek/)
+- **Leetcode:** [professor3116](https://leetcode.com/u/professor3116/)
