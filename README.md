@@ -1,134 +1,65 @@
+# File Encryption & Management System in C
+
+## Project Info
+
+### Project Name
 File Encryption & Management System in C
-Overview
-The File Encryption & Management System is a simple command-line application written in C that allows users to encrypt, decrypt, and manage files. The system supports basic file operations such as moving, renaming, deleting, and organizing files by type, size, and date. This project demonstrates the use of file handling, encryption techniques, and system-level operations in C.
 
-Features
-File Encryption: Encrypts the content of a file using a simple character shifting method with a specified key.
-File Decryption: Decrypts an encrypted file by reversing the encryption process with the same key.
-File Operations: Includes functions for moving, renaming, and deleting files.
-File Organization: Organizes files in directories based on file type, size, or creation date.
-Cross-Platform: Works on systems that support standard C libraries (e.g., Linux, Windows).
-Requirements
-C Compiler (GCC recommended)
-Basic knowledge of file handling in C
-Operating system: Linux or Windows (with support for mkdir and file I/O operations)
-Installation
-Clone the repository to your local machine:
+### Project Details
+A simple command-line application written in C for encrypting, decrypting, and managing files. It supports various file operations such as moving, renaming, deleting, and organizing files by type, size, and date. The project demonstrates the use of file handling, encryption, and system-level operations in C.
 
-bash
-Copy code
-git clone https://github.com/your-username/File-Encryption-Management-System.git
-Navigate to the project directory:
+### Outline / Brief Description of the Project
+The **File Encryption & Management System** allows users to manage files through encryption/decryption and perform file organization tasks. The system supports cross-platform compatibility and is ideal for learning about file handling and encryption in C.
 
-bash
-Copy code
-cd File-Encryption-Management-System
-Compile the C files:
+---
 
-bash
-Copy code
-gcc *.c -o file_manager
-Run the compiled program:
+## General Information
 
-bash
-Copy code
-./file_manager
-Usage
-Available Commands
-Encrypt a File
+1. **General Info About the Project:**
+   This project enables users to secure their files through encryption and decryption. Additionally, it supports organizing files based on their type, size, and date. It also provides basic file management options like moving, renaming, and deleting files.
 
-Encrypts a file using a specified key (shifts the ASCII values of characters).
-Usage:
-bash
-Copy code
-encrypt_file("path/to/your/file.txt", key);
-Example:
-bash
-Copy code
-encrypt_file("file.txt", 5);
-Decrypt a File
+2. **What Problem Does It Solve?**
+   The system helps protect sensitive information by providing encryption and decryption capabilities. It also aids in better file organization, reducing clutter in directories and enhancing file management.
 
-Decrypts an encrypted file using the same key that was used for encryption.
-Usage:
-bash
-Copy code
-decrypt_file("path/to/your/file.txt", key);
-Example:
-bash
-Copy code
-decrypt_file("file.txt", 5);
-Move a File
+3. **Purpose of Your Project:**
+   To offer a simple, command-line-based solution for file encryption, decryption, and management that demonstrates essential system-level operations in C.
 
-Moves a file to a new directory.
-Usage:
-bash
-Copy code
-move_file("path/to/old/file", "path/to/new/file");
-Rename a File
+---
 
-Renames an existing file.
-Usage:
-bash
-Copy code
-rename_file("path/to/old/file", "new_file_name");
-Delete a File
+## Technologies Used
 
-Deletes the specified file.
-Usage:
-bash
-Copy code
-delete_file("path/to/your/file");
-Organize Files by Type
+- C Programming Language
+- GCC Compiler (GNU Compiler Collection)
+- Standard C Libraries (`stdio.h`, `stdlib.h`, `string.h`, `sys/stat.h`)
 
-Organizes files in the directory based on their file extension.
-Usage:
-bash
-Copy code
-org_by_type("path/to/your/directory");
-Organize Files by Size
+---
 
-Organizes files by size, creating directories based on file size ranges.
-Usage:
-bash
-Copy code
-org_by_size("path/to/your/directory");
-Organize Files by Date
+## Features
 
-Organizes files based on their creation or modification date.
-Usage:
-bash
-Copy code
-org_by_date("path/to/your/directory");
-Example Usage
-The following code snippet demonstrates how to use the system to encrypt and decrypt a file:
+- **File Encryption:** Encrypts a file using a simple shifting method based on a provided key.
+- **File Decryption:** Decrypts a file by reversing the encryption process with the same key.
+- **File Operations:** Move, rename, and delete files through easy-to-use functions.
+- **File Organization:** Organize files based on their type (extension), size, or date.
+- **Cross-Platform Compatibility:** Works on both Linux and Windows (with necessary adjustments).
 
-c
-Copy code
-#include "project_modules.h"
+---
 
-int main() {
-    const char *file_path = "path/to/your/file.txt";
-    int encryption_key = 5; // Shift key for encryption
+## Screenshots
 
-    // Encrypt file
-    encrypt_file(file_path, encryption_key);
+![File Encryption](https://example.com/encryption_screenshot.png)  
+*Screenshot of file encryption functionality.*
 
-    // Wait for a while or perform other tasks
+---
 
-    // Decrypt file
-    decrypt_file(file_path, encryption_key);
+## Setup
 
-    return 0;
-}
-Contributing
-Contributions are welcome! If you'd like to contribute, please fork the repository, make your changes, and create a pull request. Make sure to follow these guidelines:
+### Setup Info
+To run this project, you will need a C compiler (e.g., GCC) and access to a Linux or Windows system that supports file I/O operations.
 
-Keep the code clean and well-documented.
-Add tests for any new features.
-Ensure the project builds and runs on both Linux and Windows platforms.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Acknowledgments
-Thanks to all the contributors who have helped improve this project.
-Special thanks to the open-source community for providing resources on C programming and file handling.
+### Project Requirements/Dependencies
+- C Compiler (e.g., GCC)
+- Standard C libraries (`stdio.h`, `stdlib.h`, `string.h`, `sys/stat.h`)
+  
+You can install GCC on Linux via the terminal using:
+```bash
+sudo apt-get install gcc
