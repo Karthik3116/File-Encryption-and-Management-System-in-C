@@ -79,10 +79,4 @@ cd File-Encryption-and-Management-System-in-C
 Compile the C Files:
 
 bash
-Copy code
-gcc *.c -o file_manager
-Run the Compiled Program:
-
-bash
-Copy code
-./file_manager
+gcc main.c display_content.c  move_file.c rename_file.c create_directory.c  delete_file.c org_by_type.c org_by_date.c .\org_by_size.c encrypt_file.c decrypt_file.c  -o run;.\run.exe
