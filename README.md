@@ -92,8 +92,6 @@ gcc main.c display_content.c  move_file.c rename_file.c create_directory.c  dele
 - **LinkedIn:** [kethavath kartheek]([https://www.linkedin.com/in/your-profile](https://www.linkedin.com/in/kethavathkartheek/))
 - **Leetcode:** [professor3116]([https://leetcode.com/u/professor3116/])
 
-Made with ❤️⚡ by Hansal Shah [19BCP043] && Jainil Patel [19BCP056]
-
 
 
 
