@@ -78,6 +78,8 @@ bash
 Copy code
 gcc main.c display_content.c move_file.c rename_file.c create_directory.c delete_file.c org_by_type.c org_by_date.c org_by_size.c encrypt_file.c decrypt_file.c -o run
 ./run
+
+``` `
 Contact
 LinkedIn: kethavath kartheek
 Leetcode: professor3116
