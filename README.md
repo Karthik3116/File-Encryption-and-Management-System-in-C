@@ -63,3 +63,26 @@ To run this project, you will need a C compiler (e.g., GCC) and access to a Linu
 You can install GCC on Linux via the terminal using:
 ```bash
 sudo apt-get install gcc
+
+
+Steps to Install / Get Started with the Project
+Clone the Repository:
+
+bash
+Copy code
+git clone https://github.com/your-username/File-Encryption-and-Management-System-in-C.git
+Navigate to the Project Directory:
+
+bash
+Copy code
+cd File-Encryption-and-Management-System-in-C
+Compile the C Files:
+
+bash
+Copy code
+gcc *.c -o file_manager
+Run the Compiled Program:
+
+bash
+Copy code
+./file_manager
